@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:onClick="startwithlearning"
+    android:orientation="vertical"
+    tools:context=".first_page">
+<!--<ImageView-->
+<!--    android:layout_width="75dp"-->
+<!--    android:layout_height="75dp"-->
+<!--    android:src="@drawable/lclanlogo"-->
+<!--    android:layout_margin="10dp"-->
+<!--    />-->
+
+    <Button
+
+        android:id="@+id/gotouserprofilefp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00000000"
+        android:onClick="gotouserprofile"
+        android:text="user"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="JAVA"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@android:color/black"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/textfp1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="sample1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/startfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:backgroundTint="#28b0ff"
+        android:onClick="startwithlearning"
+        android:text="start"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@android:color/black"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/textfp2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="sample2"
+            android:textColor="@color/black" />
+    </ScrollView>
+
+</LinearLayout>

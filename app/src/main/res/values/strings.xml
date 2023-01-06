@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">L-CLAN</string>
+    <string name="textfp1">\t\t\t\t\t<b> INFORMATION ABOUT JAVA </b>
+        \n
+        \t\t\t\t\t Java is a programming language and computing platform used for developing and running applications.
+\n
+        It was first released by Sun Microsystems in 1995 and has since become one of the most popular programming languages in use, particularly for client-server web applications, with a reported 10 million users.
+\n
+Java is a general-purpose, object-oriented language that is specifically designed to have as few implementation dependencies as possible. This means that Java programs can run on any device that has a Java Virtual Machine (JVM) installed, regardless of the underlying hardware and software.
+\n
+Java is a high-level language, meaning that it is easier to read and write compared to low-level languages, which are closer to the machine language that computers understand. Java is also a compiled language, which means that it is transformed into a form that is easier for computers to execute.
+\n
+Java is known for its simplicity, reliability, and scalability, making it an ideal choice for building large-scale applications. It is also used in a wide range of industries, including financial services, retail, and healthcare.</string>
+    <string name="textfp2">\t\t\t\t\t\t\t\t\t\t\t\t<b>  USES OF JAVA </b>
+\n
+        1) Web and application development: Java is a popular choice for building web and mobile applications, due to its platform-independence, scalability, and security features.
+\n
+2) Financial services: Java is widely used in the financial industry, particularly for building trading platforms, risk management systems, and other financial applications.
+\n
+3) Retail: Java is used in retail to build point-of-sale (POS) systems, inventory management systems, and other applications.
+\n
+4) Healthcare: Java is used to build healthcare information systems, such as electronic health record (EHR) systems, as well as other medical software.
+\n
+5) Big data: Java is often used in big data environments for tasks such as data processing and analysis.
+\n
+6) Android development: Java is the primary language used for building Android apps.
+\n
+7) Scientific applications: Java is used to build a variety of scientific and research applications, including simulations, data analysis tools, and more.
+\n
+8) Cloud computing: Java is a popular choice for building cloud-based applications due to its scalability and security features.
+    </string>
+
+</resources>
