@@ -37,7 +37,7 @@ public class userprofile extends AppCompatActivity {
     }
 
     public void startlearning(View view) {
-        Intent intent = new Intent(userprofile.this, first_page.class);
+        Intent intent = new Intent(userprofile.this, ListDomainActivity.class);
         startActivity(intent);
     }
 
